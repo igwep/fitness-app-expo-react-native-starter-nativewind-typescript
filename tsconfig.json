@@ -1,10 +1,9 @@
 {
   "compilerOptions": {
+    "ignoreDeprecations": "6.0",
     "baseUrl": ".",
     "paths": {
-      "@/*": [
-        "./src/*"
-      ]
+      "@/*": ["./src/*"]
     }
   },
   "extends": "expo/tsconfig.base",
@@ -13,5 +12,5 @@
     "**/*.ts",
     "**/*.tsx",
     "nativewind-env.d.ts"
-  ]
+, "fitness-app-youtube/sanity-typegen.js"  ]
 }
